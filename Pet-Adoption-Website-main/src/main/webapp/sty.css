@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-image: url('philozomain.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #FF6347;
+    color: white;
+    border-radius: 15px;
+    margin: 43% auto 0%; /* Changed margin values */
+    width: fit-content;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-family: 'Anton', sans-serif;
+    font-stretch: ultra-expanded;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 600px) {
+    .login-container {
+        width: 80%;
+        font-size: 1.5em;
+    }
+}
